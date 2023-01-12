@@ -5,16 +5,16 @@ services:
         build: .
         ports:
             - "1111:80"
+        volumes:
+            - "./cent79_1_root:/root"
         tty: true
         stdin_open: true
-        volumes:
-            - ./cent79_1_httpd.conf:/etc/httpd/conf/
     centos79_2:
         container_name: centos79_2
         build: .
         ports:
             - "2222:80"
+        volumes:
+            - "./cent79_2_root:/root"
         tty: true
         stdin_open: true
-        volumes:
-            - ./ent79_2_httpd.conf:/etc/httpd/conf/
