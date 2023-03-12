@@ -7,8 +7,11 @@ services:
             - "1111:80"
         volumes:
             - "./cent79_1_root:/root"
+            - "./utils:/utils"
         tty: true
         stdin_open: true
+        privileged: true
+
     centos79_2:
         container_name: centos79_2
         build: .
@@ -18,3 +21,4 @@ services:
             - "./cent79_2_root:/root"
         tty: true
         stdin_open: true
+        privileged: true
