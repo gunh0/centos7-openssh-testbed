@@ -33,13 +33,13 @@ This testbed uses two CentOS 7.9 containers:
 ### Directory Structure
 
 ```bash
-├── Dockerfile                      # CentOS 7.9 base image configuration
-├── docker-compose.yml             # Container composition definition
-├── cent79_1_httpd.conf           # Container1 Apache configuration
-├── cent79_2_httpd.conf           # Container2 Apache configuration
-├── cent79_1_root/                # Container1 installation files
-├── cent79_2_root/                # Container2 installation files
-└── utils/                        # Utility scripts
+├── Dockerfile  # CentOS 7.9 base image configuration
+├── docker-compose.yml  # Container composition definition
+├── cent79_1_httpd.conf # Container1 Apache configuration
+├── cent79_2_httpd.conf # Container2 Apache configuration
+├── cent79_1_root/  # Container1 installation files
+├── cent79_2_root/  # Container2 installation files
+└── utils/  # Utility scripts
 ```
 
 <br/>
