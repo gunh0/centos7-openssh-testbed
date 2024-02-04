@@ -1,4 +1,3 @@
-version: "3"
 services:
     centos79_1:
         container_name: centos79_1

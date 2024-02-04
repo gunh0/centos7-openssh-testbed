@@ -13,4 +13,4 @@ CPU_USAGE=$(top -b -n 1 | grep "Cpu(s)" | awk '{print $2 + $4}')
 MEM_USAGE=$(free | grep Mem | awk '{print $3/$2 * 100.0}')
 
 # Write the data to the log file
-echo "$DATE_TIME CPU usage: $CPU_USAGE%, Memory usage: $MEM_USAGE%" >> $LOG_FILE
+echo "$DATE_TIME CPU usage: $CPU_USAGE%, Memory usage: $MEM_USAGE%" >>$LOG_FILE
